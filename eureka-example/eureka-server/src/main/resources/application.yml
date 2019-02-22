@@ -7,6 +7,7 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+    instanceInfoReplicationIntervalSeconds: 10
     defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
     enable-self-preservation: false
