@@ -8,6 +8,7 @@ spring:
       label: master                      #指定分支
 server:
   port: 7002
+
 management:
   security:
     enabled: false     #SpringBoot 1.5.X 以上默认开通了安全认证，如果不关闭会要求权限
